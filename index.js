@@ -7,13 +7,7 @@ const path = require("path")
 const firebase = require("firebase")
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqu0RMFW9jc61taWyL9YME36YvngEE8Yo",
-  authDomain: "leagueoofgamers.firebaseapp.com",
-  databaseURL: "https://leagueoofgamers.firebaseio.com",
-  projectId: "leagueoofgamers",
-  storageBucket: "leagueoofgamers.appspot.com",
-  messagingSenderId: "434427616443",
-  appId: "1:434427616443:web:b15a7d98e5833c433c1d9e"
+  // YOUR CONFIG
 }
 
 firebase.initializeApp(firebaseConfig)
